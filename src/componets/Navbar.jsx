@@ -3,22 +3,20 @@ import { CiHeart } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 
-export const Eg = () => {
+export const Navbar = () => {
   return (
     <div className="flex space-x-[74px]  justify-center pt-[30px] pb-[19px] z-10">
-      {/* <div className="container mx-auto flex justify-between items-center p-4"> */}
+   
       <div>
         <img
           className="w-[35px] h-[35px]"
           src="https://aartisto.com/wp-content/uploads/2020/11/myntra.png"
         />
       </div>
-      {/* <div className="text-2xl font-semibold">Brand</div> */}
 
-      {/* Navbar Links */}
 
       <div className="hidden md:flex space-x-6 items-center">
-        {/* Men Dropdown */}
+    
         <div className="group relative">
           <button className="text-[14px] text-gray-800 font-semibold hover:text-pink-600 font-customFont">
             MEN
@@ -401,7 +399,6 @@ export const Eg = () => {
           </div>
         </div>
 
-        {/* Women Dropdown */}
         <div className="group relative">
           <button className="text-[14px] text-gray-800 font-semibold hover:text-pink-600 font-customFont">
             WOMEN
@@ -790,23 +787,21 @@ export const Eg = () => {
           </div>
         </div>
 
-        {/* Kids Dropdown */}
-
-        {/* Home & Living */}
+       
         <div className="group relative">
           <button className="text-gray-700 font-semibold hover:text-pink-600">
             Home & Living
           </button>
         </div>
 
-        {/* Beauty */}
+      
         <div className="group relative">
           <button className="text-gray-700 font-semibold hover:text-pink-600">
             Beauty
           </button>
         </div>
       </div>
-      {/* </div> */}
+      
       <div className="flex items-center  gap-[10px] bg-gray-400 w-[542px] rounded h-[29px]">
         <div><CiSearch /></div>
         <div>search here</div>
@@ -835,140 +830,4 @@ export const Eg = () => {
   );
 };
 
-export default Eg;
-
-// const Navbar = () => {
-//   return (
-//     <nav className="bg-white shadow-lg">
-//       <div className="container mx-auto flex justify-between items-center px-6 py-4">
-//         {/* Logo */}
-//         <div className="text-2xl font-bold">
-//           <a href="#">Logo</a>
-//         </div>
-
-//         {/* Menu Items */}
-//         <div className="hidden md:flex space-x-6 items-center">
-//           {/* Men Dropdown */}
-//           <div className="group relative">
-//             <button className="text-gray-700 font-semibold hover:text-pink-600">Men</button>
-//             <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg w-[923px] z-10">
-//               <div className="grid grid-cols-3 gap-8 p-6">
-//                 {/* Column 1 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Indian & Fusion Wear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Kurtas & Suits</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Sarees</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Ethnic Wear</a>
-//                 </div>
-
-//                 {/* Column 2 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Western Wear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Dresses</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Tops</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Jeans</a>
-//                 </div>
-
-//                 {/* Column 3 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Footwear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Flats</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Casual Shoes</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Sports Shoes</a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* Women Dropdown */}
-//           <div className="group relative">
-//             <button className="text-gray-700 font-semibold hover:text-pink-600">Women</button>
-//             <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg w-full z-10">
-//               <div className="grid grid-cols-3 gap-8 p-6">
-//                 {/* Column 1 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Indian & Fusion Wear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Kurtas & Suits</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Sarees</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Ethnic Wear</a>
-//                 </div>
-
-//                 {/* Column 2 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Western Wear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Dresses</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Tops</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Jeans</a>
-//                 </div>
-
-//                 {/* Column 3 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Footwear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Flats</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Casual Shoes</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Sports Shoes</a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* Kids Dropdown */}
-//           <div className="group relative">
-//             <button className="text-gray-700 font-semibold hover:text-pink-600">Kids</button>
-//             <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg w-full z-10">
-//               <div className="grid grid-cols-3 gap-8 p-6">
-//                 {/* Column 1 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Clothing</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">T-Shirts</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Jeans</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Jackets</a>
-//                 </div>
-
-//                 {/* Column 2 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Footwear</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Casual Shoes</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Sports Shoes</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Boots</a>
-//                 </div>
-
-//                 {/* Column 3 */}
-//                 <div>
-//                   <h3 className="text-pink-600 font-bold mb-2">Accessories</h3>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Caps</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Sunglasses</a>
-//                   <a href="#" className="block py-2 text-gray-600 hover:underline">Backpacks</a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* Home & Living */}
-//           <div className="group relative">
-//             <button className="text-gray-700 font-semibold hover:text-pink-600">Home & Living</button>
-//           </div>
-
-//           {/* Beauty */}
-//           <div className="group relative">
-//             <button className="text-gray-700 font-semibold hover:text-pink-600">Beauty</button>
-//           </div>
-//         </div>
-
-//         {/* Right Side: Search, Profile, etc. */}
-//         <div className="flex space-x-4">
-//           <input
-//             type="text"
-//             placeholder="Search for products, brands and more"
-//             className="hidden md:block w-72 border border-gray-300 px-4 py-2 rounded-md"
-//           />
-//           <a href="#" className="text-gray-700 hover:text-pink-600">Profile</a>
-//           <a href="#" className="text-gray-700 hover:text-pink-600">Wishlist</a>
-//           <a href="#" className="text-gray-700 hover:text-pink-600">Bag</a>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
+export default Navbar

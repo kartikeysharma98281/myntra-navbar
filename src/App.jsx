@@ -1,6 +1,6 @@
 
 import './App.css'
-import Eg from './componets/eg'
+import Eg from './componets/Navbar'
 
 function App() {
 
